@@ -1,17 +1,21 @@
 body {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     opacity: 1;
-    color: #3F5D45;
+    color: #3f5d45;
     font-family: PingFang TC, Semibold;
     padding-top: 30px;
     padding-left: 42px;
     padding-right: 42px;
     padding-bottom: 30px;
+    
 }
+header img {
+        margin-left: 25%;
+    }
 
 a {
     text-decoration: none;
-    color: #3F5D45;
+    color: #3f5d45;
 }
 
 .menu {
@@ -19,6 +23,7 @@ a {
 }
 
 .container {
+    margin: 0 auto;
     width: 940px;
     display: flex;
     justify-content: space-between;
@@ -37,24 +42,25 @@ a {
     text-align: center;
     font-weight: bold;
 }
-
 .banner li:hover {
-    background: #3F5D45;
-    color: #FFFFFF;
+    background: #3f5d45;
+    color: #ffffff;
     display: block;
 }
 
 .content {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 940px;
 }
 
+
 .menu li {
     text-align: center;
     width: 300px;
     height: 65px;
-    border: 1px solid #EAF0ED;
+    border: 1px solid #eaf0ed;
     font-size: 24px;
 }
 
@@ -64,12 +70,12 @@ h3 {
 }
 
 .menu li:hover {
-    background: #EAF0ED;
+    background: #eaf0ed;
 }
 
 .menu li:nth-child(1) {
-    color: #FFFFFF;
-    background: #3F5D45;
+    color: #ffffff;
+    background: #3f5d45;
 }
 
 .productList {
@@ -90,8 +96,8 @@ h3 {
 
 .productList-card .tag {
     position: absolute;
-    background: #3F5D45;
-    color: #FFFFFF;
+    background: #3f5d45;
+    color: #ffffff;
     padding: 10px;
     left: 20px;
     top: 0px;
@@ -134,7 +140,7 @@ h3 {
 }
 
 .productList-card .productList-card-cart {
-    background: #EAF0ED;
+    background: #eaf0ed;
     line-height: 65px;
     text-align: center;
     display: block;
@@ -157,12 +163,12 @@ h3 {
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
-    border: 1px solid #EAF0ED;
+    border: 1px solid #eaf0ed;
     width: 60px;
 }
 
 .pages a:hover {
-    background: #3F5D45;
+    background: #3f5d45;
     color: #fff;
 }
 
